@@ -1,0 +1,62 @@
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Global Style, style each element, with 1 grid column for main */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Lato;
+    line-height: 1.6;
+    min-width: 400px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(86, 106, 86);
+}
+
+h1 {
+    font-family: PlayFair Display;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+nav {
+    font-size: 20px; 
+    background-color: rgb(240, 233, 223);
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    padding: 10px 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+
+/* Medium Media Query with 2 grid column for main */
+
+/* Large Media Query with 3 grid column for main */
+
+/* XL Media Query with 4 grid column for main */
