@@ -103,7 +103,14 @@ footer{
     background-color:rgb(86, 106, 86);
 }
 /* Medium Media Query with 2 grid column for main */
+@media screen and (min-width: 600px) {
 
+}
 /* Large Media Query with 3 grid column for main */
+@media screen and (min-width: 900px) {
 
+}
 /* XL Media Query with 4 grid column for main */
+@media screen and (min-width: 1200px) {
+
+}
