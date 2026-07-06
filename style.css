@@ -56,7 +56,7 @@ nav ul li a {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap: 50px;
     margin: 50px 40px;
 }
 
@@ -76,17 +76,9 @@ p {
     font-size: 18px;
 }
 
-#link2 {
-    margin: 50px 0;
-}
-
 #link3 ul {
     margin: 20px 20px 0 20px;
     font-size: 18px;
-}
-
-#four {
-    margin-top: 50px;
 }
 
 #four img {
@@ -104,7 +96,9 @@ footer{
 }
 /* Medium Media Query with 2 grid column for main */
 @media screen and (min-width: 600px) {
-
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /* Large Media Query with 3 grid column for main */
 @media screen and (min-width: 900px) {
