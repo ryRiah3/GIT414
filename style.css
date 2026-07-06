@@ -54,7 +54,52 @@ nav ul li a {
     color: black;
 }
 
+main {
+    margin: 50px 40px;
+}
 
+h2 {
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+#link1 ol {
+    margin: 25px 20px;
+    font-size: 18px;
+}
+
+#link2 {
+    margin: 50px 0;
+}
+
+#link3 ul {
+    margin: 20px 20px 25px 20px;
+    font-size: 18px;
+}
+
+#four {
+    margin-top: 50px;
+}
+
+#four img {
+    margin-top: 25px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    font-weight:600;
+    background-color:rgb(86, 106, 86);
+}
 /* Medium Media Query with 2 grid column for main */
 
 /* Large Media Query with 3 grid column for main */
