@@ -77,7 +77,7 @@ p {
 }
 
 #link3 ul {
-    margin: 20px 20px 0 20px;
+    margin: 10px 20px 0 20px;
     font-size: 18px;
 }
 
@@ -102,9 +102,13 @@ footer{
 }
 /* Large Media Query with 3 grid column for main */
 @media screen and (min-width: 900px) {
-
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 /* XL Media Query with 4 grid column for main */
 @media screen and (min-width: 1200px) {
-
+    main {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
